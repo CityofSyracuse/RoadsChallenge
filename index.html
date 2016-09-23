@@ -50,34 +50,78 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Syracuse Roads Data Challenge</h1>
-        <h2>Powered by AT&T</h2>
-        <p>Download City of Syracuse data here!</p>
+        <div class="row">
+          <h1>Syracuse Roads Data Challenge</h1>
+        </div>
+        <div class="row">
+          <div>
+            <h2>Powered by AT&T</h2>
+          </div>
+        </div>
+        <div class="row">
+          <p>Download City of Syracuse data below!</p>
+        </div>
       </div>
     </div>
+  </div>
 
     <div class="container">
       <!-- Example row of columns -->
+      <div class="row text-center">
+        <h2><strong>City Data</strong></h2>
+      </div>
       <div class="row">
         <div class="col-md-4">
-          <h2>Street Shapefile</h2>
+          <h3>Street Shapefile</h3>
           <p>This street shapefile includes all of the streets in the City of Syracuse. It also includes the category of street, like a major road versus a local road. You can join the road rating and potholes data to this shapefile using the unique Street ID attribute that is contained across datasets.</p>
           <p><a class="btn btn-primary" href="./data/street_shapefile.zip" role="button">Download Data</a></p>
           <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Potholes Filled</h2>
+          <h3>Potholes Filled</h3>
           <p>This is a record of most potholes filled in the City of Syracuse since April, 2016. Most potholes are filled using a machine called a durapatcher. Each time a durapatcher fills a pothole, a row of data is logged, documenting the time and location. Some larger potholes are filled using other methods, and not all potholes in the city are found. The City only started tracking all potholes filled in April, 2016.</p>
           <p><a class="btn btn-primary" href="./data/potholes.csv" role="button">Download Data</a></p>
           <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Road Ratings</h2>
+          <h3>Road Ratings</h3>
           <p>Every road block in the city is rated on a 1-10 scale. Each road is rated every two years, and we are supplying records of road ratings going back to the year 2000. There is a scoring criteria for these ratings - 1 is the worst rating and 10 is the best. Generally, it is accepted that once a road reaches a rating of 5 or below, it is a candidate for larger maintenance work called "milling and paving".</p>
           <p><a class="btn btn-primary" href="./data/roads.csv" role="button">Download Data</a></p>
           <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
         </div>
       </div>
+      <div class="row text-center">
+        <h2><strong>Other Open Data</strong></h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Central New York Data</h3>
+          <ul>
+            <li><a href="http://communitygeography.org/maps-data-profiles/" target="_blank">Syracuse Community Geography</a></li>
+            <li><a href="https://syruniv.maps.arcgis.com/apps/OnePane/basicviewer/index.html?appid=e3161b83f9bd4a6c95b744947c707436" target="_blank">MapSyracuse</a></li>
+            <li><a href="http://www.fsihost.com/onondaga/Default.aspx" target="_blank">Onondaga County GIS</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>New York State Data</h3>
+          <ul>
+            <li><a href="https://data.ny.gov/" target="_blank">Open Data Portal</a></li>
+            <li><a href="https://health.data.ny.gov/" target="_blank">Health Data Portal</a></li>
+            <li><a href="http://gis.ny.gov/GIS">GIS Clearinghouse</a></li>
+            <li><a href="https://511ny.org/developers/resources">511NY Developer Resource Area</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Federal Data</h3>
+          <ul>
+            <li><a href="http://data.gov" target="_blank">Open Data Portal</a></li>
+            <li><a href="http://www-fars.nhtsa.dot.gov/QueryTool/querysection/selectyear.aspx" target="_blank">National Highway Traffic Safety Administration</a></li>
+            <li><a href="http://www.rita.dot.gov/bts/ntm">National Transit Map</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
 
       <hr>
 
