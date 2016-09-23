@@ -51,7 +51,7 @@
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <h1>Syracuse Roads Data Challenge</h1>
+          <h1 style="color:#d44500">Syracuse Roads Data Challenge</h1>
         </div>
         <div class="row">
           <div>
@@ -59,8 +59,10 @@
           </div>
         </div>
         <div class="row">
-          <p>Download City of Syracuse data below!</p>
-          <a class="btn btn-primary" href="https://ischool.syr.edu/landing-pages/civic-data-hackathon-syracuse-roads-challenge" target="_blank" role="button">Challenge Details</a>
+          <p style="text-align:center">Download City of Syracuse data below!</p>
+          <div class="button-center">
+            <a class="btn btn-primary" href="https://ischool.syr.edu/landing-pages/civic-data-hackathon-syracuse-roads-challenge" target="_blank" role="button">Challenge Details</a>
+
         </div>
       </div>
     </div>
@@ -75,20 +77,26 @@
         <div class="col-md-4">
           <h3>Street Shapefile</h3>
           <p>This street shapefile includes all of the streets in the City of Syracuse. It also includes the category of street, like a major road versus a local road. You can join the road rating and potholes data to this shapefile using the unique Street ID attribute that is contained across datasets.</p>
-          <p><a class="btn btn-primary" href="./data/street_shapefile.zip" role="button">Download Data</a></p>
-          <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
+          <div class="button-center">
+            <p><a class="btn btn-primary" href="./data/street_shapefile.zip" role="button">Download Data</a></p>
+            <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
+        </div>
         </div>
         <div class="col-md-4">
           <h3>Potholes Filled</h3>
           <p>This is a record of most potholes filled in the City of Syracuse since April, 2016. Most potholes are filled using a machine called a durapatcher. Each time a durapatcher fills a pothole, a row of data is logged, documenting the time and location. Some larger potholes are filled using other methods, and not all potholes in the city are found. The City only started tracking all potholes filled in April, 2016.</p>
-          <p><a class="btn btn-primary" href="./data/potholes.csv" role="button">Download Data</a></p>
-          <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
+          <div class="button-center">
+            <p><a class="btn btn-primary" href="./data/potholes.csv" role="button">Download Data</a></p>
+            <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
+          </div>
        </div>
         <div class="col-md-4">
           <h3>Road Ratings</h3>
           <p>Every road block in the city is rated on a 1-10 scale. Each road is rated every two years, and we are supplying records of road ratings going back to the year 2000. There is a scoring criteria for these ratings - 1 is the worst rating and 10 is the best. Generally, it is accepted that once a road reaches a rating of 5 or below, it is a candidate for larger maintenance work called "milling and paving".</p>
-          <p><a class="btn btn-primary" href="./data/roads.csv" role="button">Download Data</a></p>
-          <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
+          <div class="button-center">
+            <p><a class="btn btn-primary" href="./data/roads.csv" role="button">Download Data</a></p>
+            <p><a class="btn btn-primary" href="#" role="button">Data Description</a></p>
+          </div>
         </div>
       </div>
       <div class="row text-center">
@@ -127,7 +135,19 @@
       <hr>
 
       <footer>
-        <p>City of Syracuse</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <img class="img-responsive center-block" width=50 SRC="./assets/syracuselogo.jpg">
+            </div>
+            <div class="col-md-2">
+              <img class="img-responsive center-block" width=50 SRC="./assets/ischoollogo.jpg">
+            </div>
+            <div class="col-md-2">
+              <img class="img-responsive center-block" width=50 SRC="./assets/attlogo.PNG">
+            </div>
+          </div>
+        </div>
       </footer>
     </div> <!-- /container -->
 

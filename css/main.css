@@ -1,6 +1,19 @@
 p {
 margin-bottom:.75em;
 }
-h1,h2,h3 {
-  font-family: Georgia;
+ h1, h2 {
+   color: #d44500;
+   text-align: center;
+ }
+
+h3 {
+  color:#029edc;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-center {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
 }
