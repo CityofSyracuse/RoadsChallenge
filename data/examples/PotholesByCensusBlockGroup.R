@@ -18,5 +18,5 @@ spdf <- SpatialPointsDataFrame(coords = points, data = potholes,
 
 n.censusblocks <- poly.counts(spdf, censusBlocks)
 shades = auto.shading(n.censusblocks,cols=brewer.pal(5,'Blues'))
-choropleth(censusBlocks, n.censusblocks/poly.areas(censusBlocks), shading=auto.shading(n.censusblocks/poly.areas(censusBlocks)))
+PotholesByCensusBlockGroup <- choropleth(censusBlocks, n.censusblocks/poly.areas(censusBlocks), shading=auto.shading(n.censusblocks/poly.areas(censusBlocks)))
 
